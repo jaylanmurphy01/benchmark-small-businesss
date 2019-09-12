@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-image: url(https://www.vgr.com/wp-content/uploads/2018/10/Fortnite-Fortnitemares-Halloween-Skins-Update-1_feature-600x300.jpg);
+    background-size: 120%;
+  }
+  
+  .header {
+    background-color: rgba(34, 96, 178, 0.637);
+    padding: 20px;
+    text-align: center;
+    font:bold
+  }
+  
+  .topnav {
+    overflow: hidden; 
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left; 
+    display: block;
+    color: rgb(140, 0, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    color: rgb(250, 218, 114);
+    background-color:whitesmoke;
+  }
