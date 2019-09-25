@@ -2,7 +2,11 @@
     box-sizing: border-box;
     margin: 0;
   }
-  
+  .thanks{
+    margin: 0;
+    background-image: url(https://media.giphy.com/media/1wmP9a8qwMvRaM0ETf/giphy.gif);
+    background-size: cover;
+  }
   .gif {
     margin: 0;
     background-image: url(https://media.giphy.com/media/2wSblJnaFakthn0BM1/giphy.gif);
