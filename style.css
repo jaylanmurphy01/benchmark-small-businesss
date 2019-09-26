@@ -2,138 +2,140 @@
     box-sizing: border-box;
     margin: 0;
   }
-  .thanks{
-    margin: 0;
-    background-image: url(https://media.giphy.com/media/1wmP9a8qwMvRaM0ETf/giphy.gif);
-    background-size: cover;
-  }
-  .gif {
-    margin: 0;
-    background-image: url(https://media.giphy.com/media/2wSblJnaFakthn0BM1/giphy.gif);
-    background-size: cover;
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-image: url(https://www.thesun.co.uk/wp-content/uploads/2019/06/asc-fortnite-summerbeach.jpg);
+  background-size: cover;
+  justify-content: space-between;
+  align-items: center;
 
-  }
+}
   
-  .header {
-    padding:1.5px;
-    text-align: center;
-    font:bold;
-    background-color: rgba(0, 183, 255, 0.904);
-    border: solid 2px black;
-  } 
+.header {
+  padding:1.5px;
+  text-align: center;
+  font:bold;
+  background-color: rgba(0, 183, 255, 0.904);
+  justify-self: flex-start;
+} 
 
-  .skulltrooper {
-    height: 75%;
-    width: 15%;
-    margin-top: 330px;
-    margin-left: 327px;
-    border-radius: 6rem;
-    background-color:grey;
-    text-align: center;
-    color: white;
-  }
-  a {
-    color: inherit;
-  }
+.skulltrooper {
+  border: 1px solid black;
+  height: 5rem;
+  width: 14.5rem;
+  background-color:grey;
+  text-align: center;
+  color: white;
+  justify-self: flex-end;
+  /* overflow: hidden; */
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
-  .headers {
-    height: 100%;
-    width: 100%;
-    background-color: lightgrey;
-    text-align: center;
-    border: solid 2px black;
-  }
+.headers {
+  height: 100%;
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+  border: solid 2px black;
+}
 
-  .detail {
-    margin-top: 10px;
-    border-radius: 12px;
-    padding:10px;
-    height: 50%;
-    width: 50%;
-    font-size: 8pt;
-    text-align: left;
-    background-color: lightgrey;
-    color: black;
-    box-shadow: 0.5rem 0.5rem 0.5rem blue;
-  }
-  
-  .detail:hover {
-    color: blue;
-  }
+.detail {
+  margin-top: 10px;
+  border-radius: 12px;
+  padding:10px;
+  height: 50%;
+  width: 50%;
+  font-size: 8pt;
+  text-align: left;
+  background-color: lightgrey;
+  color: black;
+  box-shadow: 0.5rem 0.5rem 0.5rem blue;
+}
 
-  .image2 {
-    margin: 0;
-    background-image: url(https://cdn.shopify.com/s/files/1/1454/7916/products/3b_546c29f9-2d72-44d2-bebe-0d7db0588080_2048x2048.jpg?v=1565187275);
-    background-size: cover;
-  }
-  .container {
-    position: relative;
-    display: flex;
-    margin-top: 5rem;
-    justify-content: space-around;
-    text-align: center;
-  }
+.detail:hover {
+  color: blue;
+}
 
-  .box {
-    border: solid white 1px;
-    height: 10rem;
-    width: 10rem;
-    color: lightgrey;
-    border-radius: 1rem;
-  }
-  .box p {
-    margin-top: 0rem;
-  }
-  .box img {
-    width: 9.9rem;
-    height: 9.9rem;
-    border-radius: 1rem;
-  }
+.image2 {
+  margin: 0;
+  background-image: url(https://cdn.shopify.com/s/files/1/1454/7916/products/3b_546c29f9-2d72-44d2-bebe-0d7db0588080_2048x2048.jpg?v=1565187275);
+  background-size: cover;
+}
+.container {
+  position: relative;
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-around;
+  text-align: center;
+}
 
-  .headerss {
-    padding:1.5px;
-    text-align: center;
-    font:bold;
-    background-color: rgb(238, 241, 11);
-    border: solid 2px black;
-  }
+.box {
+  border: solid white 1px;
+  height: 10rem;
+  width: 10rem;
+  color: lightgrey;
+  border-radius: 1rem;
+}
+.box p {
+  margin-top: 0rem;
+}
+.box img {
+  width: 9.9rem;
+  height: 9.9rem;
+  border-radius: 1rem;
+}
 
-  .box1 {
-    border: solid white 1px;
-    height: 10rem;
-    width: 10rem;
-    color: lightgrey;
-    border-radius: 1rem;
-  }
-  .box1 p {
-    margin-top: 0rem;
-  }
-  .box1 img {
-    width: 9.9rem;
-    height: 9.9rem;
-    border-radius: 1rem;
-  }
-  .containers {
-    position: relative;
-    display: flex;
-    margin-top: 5rem;
-    justify-content: space-around;
-    text-align: center;
-  }
-  .image3 {
-    margin: 0;
-    background-image: url(https://pmcvariety.files.wordpress.com/2018/12/fortnite-7-4.jpg?w=1000&h=563&crop=1);
-    background-size: cover;
-  }
-  .details {
-    margin-top: 10px;
-    border-radius: 12px;
-    padding:10px;
-    height: 10%;
-    width: 10%;
-    font-size: 8pt;
-    text-align: left;
-    background-color: rgb(194, 53, 230);
-    color: black;
-    box-shadow: 0.5rem 0.5rem 0.5rem rgb(196, 44, 196);
-  }
+.headerss {
+  padding:1.5px;
+  text-align: center;
+  font:bold;
+  background-color: rgb(238, 241, 11);
+  border: solid 2px black;
+}
+
+.box1 {
+  border: solid white 1px;
+  height: 10rem;
+  width: 10rem;
+  color: lightgrey;
+  border-radius: 1rem;
+}
+.box1 p {
+  margin-top: 0rem;
+}
+.box1 img {
+  width: 9.9rem;
+  height: 9.9rem;
+  border-radius: 1rem;
+}
+.containers {
+  position: relative;
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-around;
+  text-align: center;
+}
+.image3 {
+  margin: 0;
+  background-image: url(https://pmcvariety.files.wordpress.com/2018/12/fortnite-7-4.jpg?w=1000&h=563&crop=1);
+  background-size: cover;
+}
+.details {
+  margin-top: 10px;
+  border-radius: 12px;
+  padding:10px;
+  height: 10%;
+  width: 10%;
+  font-size: 8pt;
+  text-align: left;
+  background-color: rgb(194, 53, 230);
+  color: black;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(196, 44, 196);
+}
